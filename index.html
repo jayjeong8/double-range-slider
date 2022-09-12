@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Range Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h2>Double Range Slider</h2>
+        <p>슬라이더를 움직이거나 최소최대값을 입력해보세요.</p>
+    </header>
+    <div class="values">
+        <div class="value-input">
+            <span>최소</span>
+            <input type="number" class="value-min" value="2500">
+        </div>
+        <div class="value-input">
+            <span>최대</span>
+            <input type="number" class="value-max" value="7500">
+        </div>
+    </div>
+    <div class="slider-bar">
+        <div class="progress"></div>
+    </div>
+    <div class="slider-range">
+        <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+        <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
